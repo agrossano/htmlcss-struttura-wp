@@ -106,11 +106,56 @@ main {
 
 
 footer {
-  height: 200px;
+  height: 400px;
   width: 100%;
   background-color: green;
   margin: 24px auto 24px;
-  clear:both;
+}
+
+.sect-one {
+  height: 240px;
+  width: 23%;
+  background-color: red;
+  float: left;
+}
+
+.sect-two {
+  height: 240px;
+  width: 23%;
+  background-color: black;
+  float: left;
+}
+.sect-three {
+  height: 240px;
+  width: 23%;
+  background-color: pink;
+  float: left;
+}
+.sect-four {
+  height: 240px;
+  width: 31%;
+  background-color: blue;
+  float: left;
+}
 
 
+.foot-last {
+  height: 200px;
+  width: 100%
+}
+
+.copyright {
+  height: 80%;
+  width: 60%;
+
+  background-color: brown;
+  float: left;
+}
+
+
+.social {
+  height: 80%;
+  width: 40%;
+  background-color: lightblue;
+  float: right;
 }
