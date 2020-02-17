@@ -96,12 +96,29 @@ nav {
 }
 
 main {
-  height: 1500px;
+  height: 2800px;
   width: 50%;
   background-color: grey;
   float: left;
   margin: 0px 2%;
 }
+
+
+.article:nth-of-type(odd) {
+  height: 700px;
+  width: 100%;
+  background-color: red;
+  display:block;
+}
+
+.article:nth-of-type(even) {
+  height: 700px;
+  width: 100%;
+  background-color: black;
+  display:block;
+
+}
+
 
 
 
@@ -134,7 +151,7 @@ footer {
 .sect-four {
   height: 240px;
   width: 31%;
-  background-color: blue;
+  background-color: yellow;
   float: left;
 }
 
