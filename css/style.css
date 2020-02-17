@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.wrap {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  height: 200px;
+  width: 100%;
+  background-color: green;
+  margin-top: 24px;
+}
+
+
+
+.navcontainer {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  margin-bottom: 24px;
+}
+
+nav {
+  width: 40%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: brown;
+}
+
+.left {
+  height: 1000px;
+  width: 23%;
+  background-color: blue;
+  float: left;
+}
+
+.left .first-block {
+  width: 100%;
+  height: 35%;
+  margin-bottom: 25px;;
+  background-color: yellow;
+
+}
+
+.left .second-block {
+  width: 100%;
+  height: 15%;
+  margin-bottom: 25px;
+
+  background-color: lightblue;
+}
+
+.left .third-block {
+  width: 100%;
+  height: 25%;
+  background-color: pink;
+}
+
+
+.right {
+  height: 800px;
+  width: 23%;
+  background-color: blue;
+  float: right;
+}
+
+.right .first-block {
+  width: 100%;
+  height: 15%;
+  margin-bottom: 25px;
+  background-color: yellow;
+}
+
+.right .second-block {
+  width: 100%;
+  height: 15%;
+  margin-bottom: 25px;
+  background-color: lightblue;
+}
+
+.article {
+  width: 12%;
+  height: 44%;
+  color: black;
+}
+
+main {
+  height: 1500px;
+  width: 50%;
+  background-color: grey;
+  float: left;
+  margin: 0px 2%;
+}
+
+
+
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: green;
+  margin: 24px auto 24px;
+  clear:both;
+
+
+}
